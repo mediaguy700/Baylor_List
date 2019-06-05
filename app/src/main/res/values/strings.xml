@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">BaylorList</string>
     <string name="title_activity_detail">Detail</string>
+    <string name="title_activity_user_map">UserLocation</string>
 </resources>

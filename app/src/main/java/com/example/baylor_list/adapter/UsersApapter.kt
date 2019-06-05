@@ -55,6 +55,8 @@ class UsersApapter(private val users: List<User>) : RecyclerView.Adapter<UsersAp
                 intent.putExtra("City",user?.address?.city.toString())
                 intent.putExtra("Zip",user?.address?.zipcode.toString())
                 intent.putExtra("Company", user?.company?.name.toString())
+                intent.putExtra("Lat",user?.address?.geo?.lat.toString())
+                intent.putExtra("Lng", user?.address?.geo?.lng.toString())
 
                 itemView.context.startActivity(intent)
             }
