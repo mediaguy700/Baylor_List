@@ -26,13 +26,13 @@ class UserMap : AppCompatActivity(), OnMapReadyCallback {
 
     override fun onMapReady(googleMap: GoogleMap) {
         mMap = googleMap
-
         var _Lat = intent.getStringExtra("Lat").toDouble()
         var _lng = intent.getStringExtra("Lng").toDouble()
-        var _title = intent.getStringArrayExtra("Name")
-        // Add a marker in Sydney and move the camera
+        var _title = intent.getStringExtra("Name")
         val userpos = LatLng(_Lat, _lng)
         mMap.addMarker(MarkerOptions().position(userpos).title(intent.getStringExtra("Name")))
+
         mMap.moveCamera(CameraUpdateFactory.newLatLng(userpos))
+
     }
 }
