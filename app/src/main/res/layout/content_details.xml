@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <TextView
+            android:text="Juan Price"
+            android:layout_width="282dp"
+            android:layout_height="52dp" android:id="@+id/detail_name" android:layout_alignParentEnd="true"
+            android:layout_marginEnd="70dp" android:layout_alignParentStart="true" android:layout_marginStart="59dp"
+            android:layout_marginTop="62dp" android:layout_alignParentTop="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" android:textStyle="bold"
+            android:gravity="center"/>
+    <TextView
+            android:text="Acme Corporation"
+            android:layout_width="281dp"
+            android:layout_height="62dp" android:id="@+id/txtCompany" android:layout_alignParentEnd="true"
+            android:layout_marginEnd="70dp" android:layout_alignParentStart="true" android:layout_marginStart="60dp"
+            android:layout_marginTop="-19dp" android:layout_below="@+id/detail_name" android:gravity="center"/>
+    <TextView
+            android:text="Contact Information"
+            android:layout_width="251dp"
+            android:layout_height="65dp" android:id="@+id/textView4" android:layout_alignParentEnd="true"
+            android:layout_marginEnd="86dp" android:layout_alignParentStart="true" android:layout_marginStart="74dp"
+            android:layout_marginBottom="-69dp" android:layout_alignBottom="@+id/txtCompany"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" android:gravity="center"
+            android:textStyle="bold"/>
+    <TextView
+            android:layout_width="271dp"
+            android:layout_height="63dp" android:id="@+id/emailtxt" android:layout_alignParentEnd="true"
+            android:layout_marginEnd="71dp" android:layout_alignParentStart="true" android:layout_marginStart="68dp"
+            android:layout_marginBottom="-48dp" android:layout_alignBottom="@+id/textView4" android:gravity="center"
+            android:text="JuanPrice@gmail.com"/>
+    <TextView
+            android:text="4325 Main Street"
+            android:layout_width="406dp"
+            android:layout_height="84dp" android:id="@+id/txtStreet" android:layout_marginBottom="-93dp"
+            android:layout_alignBottom="@+id/emailtxt" android:layout_alignParentEnd="true"
+            android:layout_marginEnd="5dp" android:layout_alignParentStart="true" android:layout_marginStart="0dp"
+            android:gravity="center"/>
+    <TextView
+            android:text="Apt. 111"
+            android:layout_width="402dp"
+            android:layout_height="63dp" android:id="@+id/txtSuite" android:layout_marginBottom="-18dp"
+            android:layout_alignBottom="@+id/txtStreet" android:layout_alignParentEnd="true"
+            android:layout_marginEnd="8dp" android:layout_alignParentStart="true" android:layout_marginStart="0dp"
+            android:gravity="center"/>
+    <TextView
+            android:text="Gwenborough"
+            android:layout_width="402dp"
+            android:layout_height="63dp" android:id="@+id/txtCity" android:layout_alignParentEnd="true"
+            android:layout_marginEnd="3dp" android:layout_alignParentStart="true" android:layout_marginStart="6dp"
+            android:layout_marginBottom="-24dp" android:layout_alignBottom="@+id/txtSuite" android:gravity="center"/>
+    <TextView
+            android:text="92998-3874"
+            android:layout_width="328dp"
+            android:layout_height="85dp" android:id="@+id/txtZip" android:layout_alignParentEnd="true"
+            android:layout_marginEnd="39dp" android:layout_alignParentStart="true" android:layout_marginStart="44dp"
+            android:layout_marginBottom="-36dp" android:layout_alignBottom="@+id/txtCity" android:gravity="center"/>
+    <TextView
+            android:text="Other Information"
+            android:layout_width="239dp"
+            android:layout_height="58dp" android:id="@+id/textView11" android:layout_marginBottom="-60dp"
+            android:layout_alignBottom="@+id/txtZip" android:layout_alignParentEnd="true"
+            android:layout_marginEnd="94dp" android:layout_alignParentStart="true" android:layout_marginStart="79dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" android:gravity="center"
+            android:textStyle="bold"/>
+    <TextView
+            android:text="Username:"
+            android:layout_width="142dp"
+            android:layout_height="30dp" android:id="@+id/textView12" android:layout_marginBottom="-32dp"
+            android:layout_alignBottom="@+id/textView11" android:layout_alignParentEnd="true"
+            android:layout_marginEnd="178dp" android:layout_alignParentStart="true" android:layout_marginStart="91dp"/>
+    <TextView
+            android:text="jsmith"
+            android:layout_width="199dp"
+            android:layout_height="wrap_content" android:id="@+id/txtUsername" android:layout_marginBottom="-20dp"
+            android:layout_alignBottom="@+id/textView11" android:layout_alignParentEnd="true"
+            android:layout_marginEnd="-13dp"/>
+    <TextView
+            android:text="Website:"
+            android:layout_width="139dp"
+            android:layout_height="38dp" android:id="@+id/textView17"
+            android:layout_alignParentStart="true" android:layout_marginStart="96dp"
+            android:layout_marginTop="43dp" android:layout_below="@+id/textView12" android:layout_alignParentEnd="true"
+            android:layout_marginEnd="176dp"/>
+    <TextView
+            android:text="hildegard.org"
+            android:layout_width="174dp"
+            android:layout_height="72dp" android:id="@+id/txtWebsite" android:layout_alignParentEnd="true"
+            android:layout_marginEnd="89dp" android:layout_alignParentStart="true" android:layout_marginStart="148dp"
+            android:layout_marginTop="17dp" android:layout_below="@+id/txtUsername" android:gravity="center"/>
+</RelativeLayout>
