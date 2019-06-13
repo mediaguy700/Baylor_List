@@ -74,20 +74,23 @@
     <TextView
             android:text="jsmith"
             android:layout_width="199dp"
-            android:layout_height="wrap_content" android:id="@+id/txtUsername" android:layout_marginBottom="-20dp"
+            android:layout_height="wrap_content" android:id="@+id/txtUsername" android:layout_marginBottom="-22dp"
             android:layout_alignBottom="@+id/textView11" android:layout_alignParentEnd="true"
-            android:layout_marginEnd="-13dp"/>
+            android:layout_marginEnd="-11dp"/>
     <TextView
             android:text="Website:"
-            android:layout_width="139dp"
-            android:layout_height="38dp" android:id="@+id/textView17"
-            android:layout_alignParentStart="true" android:layout_marginStart="96dp"
-            android:layout_marginTop="43dp" android:layout_below="@+id/textView12" android:layout_alignParentEnd="true"
-            android:layout_marginEnd="176dp"/>
+            android:layout_width="wrap_content"
+            android:layout_height="12dp" android:id="@+id/textView17"
+            android:layout_alignParentStart="true" android:layout_marginStart="93dp"
+            android:layout_marginTop="50dp" android:layout_below="@+id/textView12" android:layout_alignParentEnd="true"
+            android:layout_marginEnd="192dp" android:layout_alignParentBottom="true"
+            android:layout_marginBottom="134dp"/>
     <TextView
             android:text="hildegard.org"
-            android:layout_width="174dp"
-            android:layout_height="72dp" android:id="@+id/txtWebsite" android:layout_alignParentEnd="true"
-            android:layout_marginEnd="89dp" android:layout_alignParentStart="true" android:layout_marginStart="148dp"
-            android:layout_marginTop="17dp" android:layout_below="@+id/txtUsername" android:gravity="center"/>
+            android:layout_width="148dp"
+            android:layout_height="66dp" android:id="@+id/txtWebsite"
+            android:layout_marginTop="-14dp" android:layout_below="@+id/txtUsername" android:gravity="center"
+            android:layout_alignParentEnd="true" android:layout_marginEnd="77dp"
+            android:layout_marginStart="146dp" android:layout_alignParentBottom="true"
+            android:layout_marginBottom="117dp" android:layout_alignStart="@+id/textView17"/>
 </RelativeLayout>
